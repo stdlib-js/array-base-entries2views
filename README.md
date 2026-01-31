@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import entries2views from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-entries2views@esm/index.mjs';
+import entries2views from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-entries2views@v0.1.0-esm/index.mjs';
 ```
 
 #### entries2views( arr, fields )
@@ -115,7 +115,7 @@ Each element in the returned array is a class instance having prototype properti
 <script type="module">
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
-import entries2views from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-entries2views@esm/index.mjs';
+import entries2views from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-entries2views@v0.1.0-esm/index.mjs';
 
 var x = discreteUniform( 10, -100, 100 );
 var fields = [ 'x', 'y' ];
